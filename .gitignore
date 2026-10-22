@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+*.key
+
+# PDFs / user documents
+data/pdfs/*.pdf
+
+# Generated vector databases / indexes
+data/chroma/
+data/llamaindex_chroma/
+data/index/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
